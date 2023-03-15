@@ -1,0 +1,25 @@
+:root
+{
+    --banner-height: 80px;
+    --pallete-5: #012B41;
+}
+
+body
+{
+    font-family: "Fira Sans", sans-serif;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+
+/* Header Elements */
+
+header
+{
+    background: var(--pallete-5);
+    height: var(--banner-height);
+    width: 100%;
+    position: absolute;
+}
